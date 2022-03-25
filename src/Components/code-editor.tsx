@@ -57,7 +57,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
           scrollBeyondLastLine: false,
           automaticLayout: true,
         }}
-        height='500px'
+        height='100%'
         language='javascript'
         theme='dark'
       />
