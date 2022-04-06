@@ -10,9 +10,9 @@
   right: 5px;
   z-index: 20;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .editor-wrapper:hover .button-format {
-  opacity: 1.0;
+  opacity: 1;
 }
