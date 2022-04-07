@@ -17,8 +17,8 @@
 }
 
 .add-cell:active {
-  opacity: 0 !important;
-  transition: opacity 0s;
+  opacity: 1 !important;
+  transition: opacity 0s ease-in-out;
 }
 
 .add-cell:hover {
