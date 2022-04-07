@@ -23,6 +23,8 @@ let service: esbuild.Service
         'process.env.NODE_ENV': '"production"',
         global: 'window',
       },
+      jsxFactory: '_React.createElement',
+      jsxFragment: '_React.Fragment',
     })
 
     return {
